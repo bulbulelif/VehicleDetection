@@ -1,10 +1,8 @@
 import os
 
-import cite
-
 # Base project directory
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
+# Citation references are included in comments, e.g., [cite: 11], [cite: 3]
 # Data paths
 DATA_DIR = os.path.join(BASE_DIR, 'data')
 DATASET_DIR = os.path.join(DATA_DIR, 'dataset')
@@ -30,12 +28,12 @@ REAL_TIME_COUNTING_SCRIPT = os.path.join(SRC_DIR, 'real_time_counting.py')
 UTILS_SCRIPT = os.path.join(SRC_DIR, 'utils.py')
 
 # Training parameters
-EPOCHS = 50 [cite: 11]
+EPOCHS = 50 
 BATCH_SIZE = 16 # Example value, adjust as needed
 IMG_SIZE = 640 # Example value, adjust as needed
 
 # Vehicle classes (adjust based on your dataset)
-VEHICLE_CLASSES = ['car', 'bus', 'truck', 'motorcycle'] [cite: 3]
+VEHICLE_CLASSES = ['car', 'bus', 'truck', 'motorcycle']
 
 # Tracking parameters
 MAX_AGE = 30 # Maximum number of frames to keep a track without new detections

@@ -1,8 +1,12 @@
 import cv2
 import time
 import os
+import sys
 import yaml
 import torch  # Ensure torch is imported for device check
+
+# Add the project root to the Python path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.detection.yolov8_detector import YOLOv8Detector
 from src.tracking.tracker import VehicleTracker
