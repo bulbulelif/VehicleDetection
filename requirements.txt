@@ -1,0 +1,7 @@
+ultralytics
+torch
+torchvision
+numpy
+opencv-python
+deepsort-pytorch # Or bytetrack-pytorch if you choose ByteTrack
+pyyaml
