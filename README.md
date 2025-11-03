@@ -51,7 +51,7 @@ VehicleDetection/
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/VehicleDetection.git
+git clone https://github.com/<bulbulelif>/VehicleDetection.git
 cd VehicleDetection
 ```
 
