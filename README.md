@@ -1,4 +1,4 @@
-# 🚗 Vehicle Detection using YOLOv8
+# Vehicle Detection using YOLOv8
 
 ## 📖 Overview
 This project implements **real-time vehicle detection and counting** using the **YOLOv8** deep learning model.  
